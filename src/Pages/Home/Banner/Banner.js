@@ -4,6 +4,7 @@ import clock from '../../../assets/icons/clock.svg'
 import marker from '../../../assets/icons/marker.svg'
 import phone from '../../../assets/icons/phone.svg'
 import quote from '../../../assets/icons/quote.svg'
+import Card from '../Card/Card';
 
 const Banner = () => {
     return (
@@ -20,45 +21,27 @@ const Banner = () => {
             </div>
 
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>
-                <div className="card bg-primary text-primary-content">
-                    <div className="card-body rounded-xl bg-gradient-to-tr from-secondary to-primary">
-                        <div className='flex gap-5 items-center text-white'>
-                            <div>
-                                <img src={clock} alt="Clock" />
-                            </div>
-                            <div>
-                                <h2 className="card-title">Card title!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-primary text-primary-content">
-                    <div className="card-body rounded-xl bg-accent">
-                        <div className='flex gap-5 items-center text-white'>
-                            <div>
-                                <img src={marker} alt="Clock" />
-                            </div>
-                            <div>
-                                <h2 className="card-title">Card title!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-primary text-primary-content">
-                    <div className="card-body rounded-xl bg-gradient-to-tr from-secondary to-primary">
-                        <div className='flex gap-5 items-center text-white'>
-                            <div>
-                                <img src={phone} alt="Clock" />
-                            </div>
-                            <div>
-                                <h2 className="card-title">Card title!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Card
+                    icon={clock}
+                    background='gradient-to-tr from-secondary to-primary'
+                    title='Opening hours'
+                    desc='If a dog chews shoes whose shoes does he choose?'
+                >
+                </Card>
+                <Card
+                    icon={marker}
+                    background='accent'
+                    title='Visit our location'
+                    desc='If a dog chews shoes whose shoes does he choose?'
+                >
+                </Card>
+                <Card
+                    icon={phone}
+                    background='gradient-to-tr from-secondary to-primary'
+                    title='Contact us now'
+                    desc='If a dog chews shoes whose shoes does he choose?'
+                >
+                </Card>
             </div>
         </div>
     );
