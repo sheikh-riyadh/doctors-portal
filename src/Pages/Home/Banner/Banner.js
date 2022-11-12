@@ -9,10 +9,10 @@ const Banner = () => {
     return (
         <div>
             <div className="hero min-h-screen lg:bg-banner bg-contain">
-                <div className="hero-content flex-col lg:flex-row-reverse">
+                <div className="hero-content p-0 flex-col lg:flex-row-reverse">
                     <img src={chair} className="lg:w-6/12 rounded-lg shadow-2xl" alt='Banner' />
                     <div>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
+                        <h1 className="text-5xl font-bold leading-tight">Your New Smile Starts Here</h1>
                         <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <button className="btn bg-gradient-to-tr from-secondary to-primary border-0 text-white font-semibold">Get Started</button>
                     </div>

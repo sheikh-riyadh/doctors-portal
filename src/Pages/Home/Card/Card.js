@@ -10,7 +10,7 @@ const Card = ({ icon, background, title, desc, handleFlex, textColor, align }) =
                             <img src={icon} alt="icon" />
                         </div>
                         <div>
-                            <h2 className="text-xl lg:text-2xl mb-2">{title}</h2>
+                            <h2 className="text-xl lg:text-xl font-semibold mb-2">{title}</h2>
                             <p>{desc}</p>
                         </div>
                     </div>
