@@ -5,7 +5,7 @@ import Banner from '../Banner/Banner';
 const Home = () => {
     useTitle('Home')
     return (
-        <div>
+        <div className='mx-5'>
             <Banner></Banner>
         </div>
     );
