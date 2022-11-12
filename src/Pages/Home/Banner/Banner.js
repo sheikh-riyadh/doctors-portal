@@ -3,7 +3,6 @@ import chair from '../../../assets/images/chair.png'
 import clock from '../../../assets/icons/clock.svg'
 import marker from '../../../assets/icons/marker.svg'
 import phone from '../../../assets/icons/phone.svg'
-import quote from '../../../assets/icons/quote.svg'
 import Card from '../Card/Card';
 
 const Banner = () => {
@@ -26,6 +25,7 @@ const Banner = () => {
                     background='gradient-to-tr from-secondary to-primary'
                     title='Opening hours'
                     desc='If a dog chews shoes whose shoes does he choose?'
+                    textColor='white'
                 >
                 </Card>
                 <Card
@@ -33,6 +33,7 @@ const Banner = () => {
                     background='accent'
                     title='Visit our location'
                     desc='If a dog chews shoes whose shoes does he choose?'
+                    textColor='white'
                 >
                 </Card>
                 <Card
@@ -40,6 +41,7 @@ const Banner = () => {
                     background='gradient-to-tr from-secondary to-primary'
                     title='Contact us now'
                     desc='If a dog chews shoes whose shoes does he choose?'
+                    textColor='white'
                 >
                 </Card>
             </div>
