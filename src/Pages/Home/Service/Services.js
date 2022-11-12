@@ -15,7 +15,7 @@ const Services = () => {
                     title='Fluoride Treatment'
                     desc='Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the'
                     handleFlex='col'
-                    background='white'
+                    background='base-100'
                     textColor='accent'
                     align='center'
                 ></Card>
@@ -24,7 +24,7 @@ const Services = () => {
                     title='Cavity Filling'
                     desc='Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the'
                     handleFlex='col'
-                    background='white'
+                    background='base-100'
                     textColor='accent'
                     align='center'
                 ></Card>
@@ -33,7 +33,7 @@ const Services = () => {
                     title='Teeth Whitening'
                     desc='Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the'
                     handleFlex='col'
-                    background='white'
+                    background='base-100'
                     textColor='accent'
                     align='center'
                 ></Card>

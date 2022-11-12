@@ -19,7 +19,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'banner': "url('/src/assets/images/bg.png')"
+        'banner': "url('/src/assets/images/bg.png')",
+        'appoinment': "url('/src/assets/images/appointment.png')"
       }
     },
   },
