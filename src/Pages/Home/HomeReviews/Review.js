@@ -7,8 +7,8 @@ const Review = ({ review }) => {
             <div className="card-body">
                 <p>{message}</p>
                 <div className="card-actions justify-start mt-5">
-                    <div className='flex items-center gap-5'>
-                        <img className='w-3/12' src={image} alt="review" />
+                    <div className='flex items-center gap-5 '>
+                        <img className='w-3/12 ring ring-primary ring-offset-base-100 ring-offset-2 rounded-full' src={image} alt="review" />
                         <div>
                             <strong><h3>{reviewerName}</h3></strong>
                             <p>{from}</p>

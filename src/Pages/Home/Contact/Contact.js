@@ -10,7 +10,7 @@ const Contact = () => {
                         <p className='uppercase text-primary font-semibold mb-2'>Contact Us</p>
                         <h1 className=" tetx-2xl lg:text-4xl font-bold">Stay connected with us</h1>
                     </div>
-                    <div className="card flex-shrink-0 w-full max-w-sm shadow-lg">
+                    <div className="card flex-shrink-0 w-full max-w-sm">
                         <form className="card-body p-0">
                             <div className="form-control pb-3">
                                 <input type="text" placeholder="email address" className="input input-bordered" />
@@ -19,10 +19,10 @@ const Contact = () => {
                                 <input type="text" placeholder="subject" className="input input-bordered" />
                             </div>
                             <div className="form-control pb-3">
-                                <textarea className="textarea textarea-bordered" placeholder="Bio"></textarea>
+                                <textarea className="textarea textarea-bordered" placeholder="Nessage"></textarea>
                             </div>
-                            <div className="form-control pb-3 mt-6 flex justify-center items-center">
-                                <PrimaryButton>Submit your message</PrimaryButton>
+                            <div className="form-control pb-3 flex justify-center items-center">
+                                <PrimaryButton>SEND MESSAGE</PrimaryButton>
                             </div>
                         </form>
                     </div>
