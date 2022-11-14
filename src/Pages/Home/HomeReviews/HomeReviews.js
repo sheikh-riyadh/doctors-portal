@@ -43,7 +43,7 @@ const HomeReviews = () => {
                     <img className='w-48' src={testimonial} alt="testimonial" />
                 </div>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {
                     reviews.map(review => <Review
                         key={review.id}

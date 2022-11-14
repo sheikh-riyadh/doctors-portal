@@ -9,7 +9,7 @@ const Services = () => {
         <div className='my-10 lg:my-24 text-center'>
             <p className='uppercase text-primary font-semibold mb-2'>our services</p>
             <h2 className='text-xl lg:text-4xl mb-10'>Service we provide</h2>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 <Card
                     icon={fluoride}
                     title='Fluoride Treatment'

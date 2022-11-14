@@ -1,6 +1,6 @@
 import React from 'react';
 import useTitle from '../../../Hooks/useTitle';
-import Appoinment from '../AppoinmentHome/AppoinmentHome';
+import Appoinment from '../AppointmentHome/AppointmentHome';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
 import HomeReviews from '../HomeReviews/HomeReviews';

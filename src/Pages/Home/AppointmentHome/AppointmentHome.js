@@ -1,10 +1,10 @@
 import React from 'react';
 import doctorSmall from '../../../assets/images/doctor-small.png'
 import PrimaryButton from '../../../Components/PrimaryButton/PrimaryButton';
-const AppoinmentHome = () => {
+const AppointmentHome = () => {
     return (
         <div className='bg-appoinment bg-cover my-10 lg:my-24 rounded-md'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 justify-center items-center'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 justify-center items-center'>
                 <div className='hidden lg:block'>
                     <img className='w-10/12 -mt-24' src={doctorSmall} alt="doctor" />
                 </div>
@@ -19,4 +19,4 @@ const AppoinmentHome = () => {
     );
 };
 
-export default AppoinmentHome;
+export default AppointmentHome;
